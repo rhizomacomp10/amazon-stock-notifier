@@ -5,7 +5,7 @@
 #### Run In Colab
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1gCuMMKP1uIfC5DAz7HwuWzmdrqzDk6CP?usp=sharing)
 
-This is my first project and I made in 3 days, the code might be rough and this is for my school community project.
+This is my first project I have made. This took me 3 days, the code might be rough and this is for my school community project.
 
 Due to the sillicon shortage that is expected to last till 2022 and is plaguing graphics card stock, I have decided to make this bot in order to help people get their hands on a graphics card or anything that is affected by the shortage.
 
