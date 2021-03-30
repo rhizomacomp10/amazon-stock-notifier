@@ -8,9 +8,10 @@ from urllib.parse import urlparse
 from json import dumps
 from selenium import webdriver ## the webscraper
 chrome_options = webdriver.ChromeOptions()
-chrome_options.add_argument('--headless')
-chrome_options.add_argument('--no-sandbox')
-chrome_options.add_argument('--disable-dev-shm-usage')
+## Remove the "##" if you want to run it headless.
+## chrome_options.add_argument('--headless') 
+## chrome_options.add_argument('--no-sandbox')
+## chrome_options.add_argument('--disable-dev-shm-usage')
 prefs = {'profile.managed_default_content_settings.images':2}
 chrome_options.add_experimental_option("prefs", prefs)
 wd = webdriver.Chrome('chromedriver',options=chrome_options)
