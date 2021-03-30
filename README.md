@@ -8,7 +8,7 @@ Due to the sillicon shortage that is expected to last till 2022 and is plaguing 
 
 # Requirements
 1. You need to have the newest public version of chrome installed
-2. Latest version of [Chrome Driver](https://chromedriver.chromium.org/) in the same directory as main.py
+2. Latest version of [Chrome Driver](https://chromedriver.chromium.org/) in the same directory as main.py (Not needed for linux users)
 
 # Usage
 1. Have Python 3.7 or higher installed to path.
