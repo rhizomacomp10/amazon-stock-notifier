@@ -29,14 +29,14 @@ with open('webhook.json') as f:
 webhook = data['webhook']
 
 embed_webhook = DiscordWebhook(url=webhook)
-site = input("Enter the URL: ")
+url = input("Enter the URL: ")
 timeout = float(input("Enter the timeout: "))
-hostname = urlparse(site).hostname
+hostname = urlparse(url).hostname
 
 while istrue == 'true': #Infinite while loop
   try:
     print('Getting Site..')
-    wd.get(site) ## Scrape Website
+    wd.get(url) ## Scrape Website
     amazon_title = wd.find_element_by_id('productTitle').text
 
     instock = bool("In Stock." in wd.page_source)
@@ -49,7 +49,7 @@ while istrue == 'true': #Infinite while loop
         embed = DiscordEmbed(title=amazon_title + ' is now in stock!', description='Get your item now!', color='1e457b')
         embed.set_author(name='https://'+hostname, url='https://'+hostname, icon_url='https://'+hostname+'/favicon.ico')
         embed.set_footer(text='Stock Bot')
-        embed.add_embed_field(name='Link', value=site)
+        embed.add_embed_field(name='Link', value=url)
         embed.set_timestamp()
 
         embed_webhook.add_embed(embed)
