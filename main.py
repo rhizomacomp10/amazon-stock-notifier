@@ -29,7 +29,7 @@ with open('webhook.json') as f:
 webhook = data['webhook']
 
 embed_webhook = DiscordWebhook(url=webhook)
-site = input("Enter the site: ")
+site = input("Enter the URL: ")
 timeout = float(input("Enter the timeout: "))
 hostname = urlparse(site).hostname
 
