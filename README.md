@@ -10,8 +10,9 @@ This is my first project and I made in 3 days, the code might be rough and this 
 Due to the sillicon shortage that is expected to last till 2022 and is plaguing graphics card stock, I have decided to make this bot in order to help people get their hands on a graphics card or anything that is affected by the shortage.
 
 # Requirements
+## SKIP THESE STEPS IF YOUR USING LINUX
 1. You need to have the newest public version of chrome installed
-2. Latest version of [Chrome Driver](https://chromedriver.chromium.org/) in the same directory as main.py (Not needed for linux users)
+2. Latest version of [Chrome Driver](https://chromedriver.chromium.org/) in the same directory as main.py
 
 # Usage
 1. Have Python 3.7 or higher installed to path.
