@@ -1,5 +1,3 @@
-## installs the dependencies
-
 from os import system
 
 os = platform.system()
