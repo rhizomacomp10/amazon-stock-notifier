@@ -1,5 +1,3 @@
-## Importing libraries and dependencies
-
 print('Importing libraries..')
 
 from os import system
