@@ -16,7 +16,7 @@ Due to the sillicon shortage that is expected to last till 2022 and is plaguing 
 
 # Usage
 1. Have Python 3.7 or higher installed to path.
-1. Open powershell (or cmd) and `CD` to the directory where main.py is located
+1. Open cmd (or terminal if your using linux) and `CD` to the directory where main.py is located
 2. Type in `python setup.py` to install the requirements for script
 3. Open webhook.json in any text editor and paste in your [webhook](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks) url in between the empty quotes. 
 4. Type in `python main.py` to start the bot
