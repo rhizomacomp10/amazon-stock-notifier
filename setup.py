@@ -1,4 +1,5 @@
 from os import system
+import platform
 
 os = platform.system()
 
