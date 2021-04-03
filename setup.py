@@ -10,7 +10,7 @@ if os == "Windows":
   print('\nFinished Installing dependencies.')
 else:
   system('apt update')
-  system('apt install chromium-chromedriver')
+  system('apt install chromium-chromedriver -y')
   system('pip install discord-webhook')
   system('pip install selenium')
   system('pip install requests')
