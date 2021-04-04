@@ -39,6 +39,7 @@ while istrue == 'true': #Infinite while loop
   try:
     print('Getting Site..')
     wd.get(url) ## Scrape Website
+    time.sleep(timeout)
     amazon_title = wd.find_element_by_id('productTitle').text
 
     instock = bool("In Stock." in wd.page_source)
@@ -59,14 +60,11 @@ while istrue == 'true': #Infinite while loop
 
         webhook = DiscordWebhook(url=webhook, content='@everyone') ## sends everyone the notification
         response = webhook.execute()
-
-        time.sleep(timeout)
+        
       else:
         print(amazon_title + ' Is in stock. Already sent notification.')
-        time.sleep(timeout)
     else:
       notification_sent = False
       print(amazon_title + ' is not in stock, trying again..')
-    time.sleep(timeout)
   except KeyboardInterrupt: ## Stop the loop and exit
     break
