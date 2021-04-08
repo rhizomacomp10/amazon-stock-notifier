@@ -9,6 +9,10 @@ This is my first project I have made. This took me 3 days, the code might be rou
 
 Due to the sillicon shortage that is expected to last till 2022 and is plaguing graphics card stock, I have decided to make this bot in order to help people get their hands on a graphics card or anything that is affected by the shortage.
 
+## Supports:
+*Windows
+*Linux
+
 # Requirements
 ### SKIP THESE STEPS IF YOUR USING LINUX
 1. You need to have the newest public version of chrome installed
