@@ -2,8 +2,10 @@
 
 ### A python script to check if a item is in stock mainly for amazon but can be adapted to other sites as well.
 
-#### Run In Colab
+#### Run In Colab (Not recommended)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rhizomacomp10/stock-bot/blob/master/colab/StockBot.ipynb)
+
+##### Replit would be better to run this rather then colab.
 
 This is my first project I have made. This took me 3 days, the code might be rough and this is for my school community project.
 
