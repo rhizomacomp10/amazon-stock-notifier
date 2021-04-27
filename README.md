@@ -5,7 +5,7 @@
 #### Run In Colab (Not recommended)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rhizomacomp10/stock-bot/blob/master/colab/colab.ipynb)
 
-##### Replit would be better to run this rather then colab.
+#### Replit would be better to run this rather then colab.
 
 This is my first project I have made. This took me 3 days, the code might be rough and this is for my school community project.
 
