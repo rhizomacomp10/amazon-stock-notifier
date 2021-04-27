@@ -51,7 +51,7 @@ while istrue == 'true': #Infinite while loop
 
         embed = DiscordEmbed(title=amazon_title + ' is now in stock!', description='Get your item now!', color='1e457b')
         embed.set_author(name='https://'+hostname, url='https://'+hostname, icon_url='https://'+hostname+'/favicon.ico')
-        embed.set_footer(text='Stock Bot')
+        embed.set_footer(text='Amazon Stock Notifier')
         embed.add_embed_field(name='Link', value=url)
         embed.set_timestamp()
 
