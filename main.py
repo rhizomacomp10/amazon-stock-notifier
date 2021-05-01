@@ -14,6 +14,7 @@ chrome_options = webdriver.ChromeOptions()
 ## chrome_options.add_argument('--disable-dev-shm-usage')
 prefs = {'profile.managed_default_content_settings.images':2}
 chrome_options.add_experimental_option("prefs", prefs)
+chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0")
 wd = webdriver.Chrome('chromedriver',options=chrome_options)
 from discord_webhook import DiscordWebhook, DiscordEmbed
 
